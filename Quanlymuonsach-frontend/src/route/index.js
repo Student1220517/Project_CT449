@@ -1,4 +1,5 @@
 import { createWebHistory, createRouter } from "vue-router";
+import ContactBook  from "@/view/ContactBook.vue";
 
 const routes = [
     {
@@ -9,7 +10,7 @@ const routes = [
 
 ];
 const router = createRouter({
-    history: createWebHistory(import.meta.env.BASE_URL),
+    history: createWebHistory(),
     routes,
 });
 export default router;
