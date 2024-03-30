@@ -39,7 +39,7 @@
 import ContactCard from "@/components/ContactBook/ContactCard.vue";
 import InputSearch from "@/components/InputSearch.vue";
 import ContactList from "@/components/ContactBook/ContactList.vue";
-import ContactService from "@/services/contact.service";
+import ContactService from "@/service/contact.service";
 export default {
     components: {
         ContactCard,
